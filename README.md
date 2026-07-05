@@ -23,6 +23,21 @@ docker compose up --build
 
 Then open http://localhost:8000 or http://<your-local-ip>:8000 from another device on your home network.
 
+### Local development
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pytest -q
+```
+
+## Project roadmap
+- Frontend polish: improve forms, responsive layout, and clearer item cards.
+- Backend stability: add structured migrations and stronger validation.
+- Security: harden sessions, admin checks, and password handling.
+- DevOps: GitHub Actions CI, Docker improvements, and backup strategy.
+- Accessibility and docs: keyboard-friendly flows and contributor guidance.
+
 ## Suggested next steps
 
 ### Phase 1: Core usability
