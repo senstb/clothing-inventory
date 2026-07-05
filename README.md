@@ -2,9 +2,6 @@
 
 A simple local-first clothing inventory web app built with Python, FastAPI, SQLite, and Docker.
 
-192.168.0.248
-0.0.0.0
-
 ## Goals
 - Track owned clothing items locally
 - Store item details in a database
